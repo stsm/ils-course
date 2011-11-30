@@ -1,0 +1,22 @@
+/* ####################################
+	Einsendeaufgabe 2.4
+   #################################### */
+
+#include "stdafx.h"
+
+using namespace System;
+
+int main(array<System::String ^> ^args)
+{
+   
+	const UInt16 uiMINUTE = 60;
+	const UInt16 uiSTUNDE = uiMINUTE * uiMINUTE;
+	const UInt32 uiTAG = uiSTUNDE * 24;
+
+	Console::WriteLine("Eine Minute hat {0} Sekunden.",uiMINUTE);
+	Console::WriteLine("Eine Stunde hat {0} Sekunden.",uiSTUNDE);
+	Console::WriteLine("Eine Tag hat {0} Sekunden.\n",uiTAG);
+
+
+    return 0;
+}

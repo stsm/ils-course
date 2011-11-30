@@ -1,0 +1,27 @@
+/* ####################################
+	Einsendeaufgabe 2.1
+      #################################### */
+
+#include "stdafx.h"
+
+using namespace System;
+
+int main(array<System::String ^> ^args)
+{
+	Console::WriteLine(" \t\" ");
+	Console::WriteLine("# \t\t #");
+	Console::WriteLine("# \t\t #");
+	Console::WriteLine("# \t\t #");
+	Console::WriteLine("# \t\t #");
+	Console::WriteLine("# \t\t #");
+	Console::WriteLine(" \t\" ");
+	Console::WriteLine("# \t\t #");
+	Console::WriteLine("# \t\t #");
+	Console::WriteLine("# \t\t #");
+	Console::WriteLine("# \t\t #");
+	Console::WriteLine("# \t\t #");
+	Console::WriteLine(" \t\" ");
+	
+	Console::Write("\n\n\n");
+    return 0;
+}

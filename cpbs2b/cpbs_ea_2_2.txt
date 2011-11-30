@@ -1,0 +1,32 @@
+/* ####################################
+	Einsendeaufgabe 2.2
+      #################################### */
+
+#include "stdafx.h"
+
+using namespace System;
+
+int main(array<System::String ^> ^args)
+{
+    Int32 iEingabe1, iEingabe2;
+    Double dErgebnis;
+
+	Console::Write("Geben Sie bitte die erste ganze Zahl ein : ");
+	iEingabe1=Convert::ToInt32(Console::ReadLine());
+
+	Console::Write("Geben Sie bitte die zweite ganze Zahl ein : ");
+	iEingabe2=Convert::ToInt32(Console::ReadLine());
+	
+	Console::WriteLine("");
+	
+	//dErgebnis = safe_cast<Double>(iEingabe1) / iEingabe2;
+	
+	Console::BackgroundColor=ConsoleColor::Green;
+	Console::ForegroundColor=ConsoleColor::Black;
+	//Console::WriteLine("Das Ergebnis der Division von {0} durch {1} ist {2}\n", iEingabe1, iEingabe2, dErgebnis);
+	Console::WriteLine("Das Ergebnis der Division von {0} durch {1} ist {2}\n", iEingabe1, iEingabe2, dErgebnis = safe_cast<Double>(iEingabe1) / iEingabe2);
+	Console::BackgroundColor=ConsoleColor::Black;
+	Console::ForegroundColor=ConsoleColor::Gray;
+
+    return 0;
+}
