@@ -1,6 +1,6 @@
 try
 {
-	//try something...
+	//try something ...
 }
 catch (FormatException^)
 {
